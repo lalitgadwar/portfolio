@@ -1,0 +1,108 @@
+═══════════════════════════════════════════════════════════════
+🚀 DEPLOY YOUR PORTFOLIO TO THE INTERNET (FREE) - STEP BY STEP
+═══════════════════════════════════════════════════════════════
+
+✅ Your build is ready! Now let's deploy it.
+
+═══════════════════════════════════════════════════════════════
+METHOD 1: VERCEL CLI (FASTEST - 2 MINUTES) ⚡
+═══════════════════════════════════════════════════════════════
+
+Step 1: Install Vercel CLI
+───────────────────────────
+Open PowerShell/Terminal and run:
+  npm install -g vercel
+
+Step 2: Login to Vercel
+────────────────────────
+Run:
+  vercel login
+  
+  (This will open your browser - sign up/login with GitHub/Email)
+
+Step 3: Deploy!
+───────────────
+Navigate to your project folder:
+  cd C:\Users\LENOVO\Desktop\resume\portfolio
+
+Then run:
+  vercel
+
+Follow the prompts:
+  ✓ Set up and deploy? → Press Y (Yes)
+  ✓ Which scope? → Select your account
+  ✓ Link to existing project? → Press N (No)
+  ✓ Project name? → Press Enter (or type a name)
+  ✓ Directory? → Press Enter (it's ./)
+  ✓ Override settings? → Press N (No)
+
+Step 4: Deploy to Production
+─────────────────────────────
+Run:
+  vercel --prod
+
+🎉 DONE! You'll get a URL like: https://your-portfolio.vercel.app
+
+
+═══════════════════════════════════════════════════════════════
+METHOD 2: VERCEL VIA GITHUB (RECOMMENDED - AUTO UPDATES) 🌟
+═══════════════════════════════════════════════════════════════
+
+Step 1: Create GitHub Account & Repository
+───────────────────────────────────────────
+1. Go to https://github.com and sign up/login
+2. Click the "+" icon → "New repository"
+3. Name it: "portfolio" (or any name)
+4. Make it PUBLIC (required for free hosting)
+5. Click "Create repository"
+
+Step 2: Push Your Code to GitHub
+──────────────────────────────────
+Open PowerShell in your project folder and run:
+
+  cd C:\Users\LENOVO\Desktop\resume\portfolio
+  git init
+  git add .
+  git commit -m "Initial commit - Portfolio website"
+  git branch -M main
+  git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+  git push -u origin main
+
+(Replace YOUR_USERNAME with your actual GitHub username)
+
+Step 3: Deploy on Vercel
+─────────────────────────
+1. Go to https://vercel.com
+2. Click "Sign Up" (or Login)
+3. Click "Add New Project"
+4. Click "Import Git Repository"
+5. Select your GitHub repository
+6. Click "Import"
+7. Vercel auto-detects everything - just click "Deploy"
+
+🎉 DONE! Your site will be live in 1-2 minutes!
+
+BONUS: Every time you push code to GitHub, Vercel automatically updates your site!
+
+
+═══════════════════════════════════════════════════════════════
+QUICK COMMANDS REFERENCE
+═══════════════════════════════════════════════════════════════
+
+Build locally:
+  npm run build
+
+Test build:
+  npm run preview
+
+Deploy (Vercel CLI):
+  vercel --prod
+
+═══════════════════════════════════════════════════════════════
+NEED HELP?
+═══════════════════════════════════════════════════════════════
+
+- Vercel Docs: https://vercel.com/docs
+- Vercel Support: https://vercel.com/support
+
+═══════════════════════════════════════════════════════════════
