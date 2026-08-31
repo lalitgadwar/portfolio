@@ -17,10 +17,11 @@ export const experiences: Experience[] = [
       "Developed full-stack modules using React + Spring Boot + MySQL",
       "Implemented JWT-based authentication & role-based access control",
       "Built dashboards, event management & subscription systems",
-      "Managed deployments using Docker & CloudPanel",
-      "Worked in Agile/Scrum methodology"
+      "Managed deployments using Docker & CloudPanel, also using AWS",
+      "Worked in Agile/Scrum methodology",
+      "Have good knowledge about devops"
     ],
-    technologies: ["React", "TypeScript", "Spring Boot", "MySQL", "Docker", "CloudPanel", "JWT"]
+    technologies: ["React", "NextJs", "TypeScript", "Spring Boot", "MySQL", "Docker", "CloudPanel", "AWS", "JWT"]
   },
   {
     company: "Young Minds Technology Solutions",
