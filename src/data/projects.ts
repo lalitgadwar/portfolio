@@ -52,16 +52,17 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Spring Boot", "MySQL"]
   },
   {
-    id: "quizfix",
-    title: "QIZFIX, Ace the Test, Secure the Job",
-    description: "For student, job seeker, educator, or professional, ",
-    url: "https://app.raosedu.com",
+    id: "bnrda",
+    title: "BNRDA",
+    description: "Employee and department management platform with real-time communication features.",
+    url: "https://bnrda.com",
     features: [
-      "Education platform",
-      "Role-based access control",
-      "Backend APIs with Spring Boot"
+      "Employee & department management",
+      "Real-time chat & alerts",
+      "Dashboard & API integrations",
+      "CI/CD using Docker & CloudPanel"
     ],
-    technologies: ["React", "TypeScript", "Spring Boot", "MySQL"]
+    technologies: ["React", "TypeScript", "Spring Boot", "MySQL", "Docker", "CloudPanel"]
   },
   {
     id: "mm-bnrda",
